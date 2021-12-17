@@ -1,3 +1,22 @@
 //
 
 @use 'bootstrap';
+
+
+main{
+    .jumbo{
+        height: 400px;
+        background-image: url('../img/jumbotron.jpg');
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+    .card{
+        border: none !important;
+
+        img{
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+}
