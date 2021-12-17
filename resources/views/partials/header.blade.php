@@ -15,7 +15,7 @@
 
     <div class="bottom_header py-4">
         <div class="container">
-            <div class="row justify-content-center align-item-center">
+            <div class="row justify-content-center align-items-center">
                     @include('partials.logo')
 
                     <nav class="nav justify-content-center">

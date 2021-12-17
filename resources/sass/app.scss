@@ -3,7 +3,29 @@
 @use 'bootstrap';
 
 
+/* variables */
+
+$brand_color: #0382f9;
+
+
+
+/* header */
+
+.top_header{
+    background-color: $brand_color;
+    color: white;
+    p{
+        font-size: 0.8rem;
+        margin: 0;
+        padding: 0.5rem 0;
+    }
+}
+
+/* main */
 main{
+    background-color: #1c1c1c;
+    color: white;
+
     .jumbo{
         height: 400px;
         background-image: url('../img/jumbotron.jpg');
@@ -12,11 +34,25 @@ main{
     }
     .card{
         border: none !important;
+        background-color: transparent;
+        color: white;
 
         img{
             width: 100%;
             object-fit: cover;
             object-position: top;
+        }
+    }
+}
+
+/* banner */
+.banner{
+    background-color: $brand_color;
+    padding: 2rem;
+    .item{
+        p{
+            color: white;
+            margin: 0 1rem ;
         }
     }
 }

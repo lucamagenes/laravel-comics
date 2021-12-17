@@ -11243,6 +11243,23 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/* variables */
+/* header */
+.top_header {
+  background-color: #0382f9;
+  color: white;
+}
+.top_header p {
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+/* main */
+main {
+  background-color: #1c1c1c;
+  color: white;
+}
 main .jumbo {
   height: 400px;
   background-image: url("../img/jumbotron.jpg");
@@ -11251,6 +11268,8 @@ main .jumbo {
 }
 main .card {
   border: none !important;
+  background-color: transparent;
+  color: white;
 }
 main .card img {
   width: 100%;
@@ -11258,4 +11277,14 @@ main .card img {
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
+}
+
+/* banner */
+.banner {
+  background-color: #0382f9;
+  padding: 2rem;
+}
+.banner .item p {
+  color: white;
+  margin: 0 1rem;
 }

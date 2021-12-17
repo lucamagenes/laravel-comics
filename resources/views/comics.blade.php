@@ -19,7 +19,12 @@
             </div>
         @endforeach
     </div>
+    <div class="load_more text-center">
+        <p>LOAD MORE</p>
+    </div>
 </div>
+
+@include('partials.banner')
 
 
 @endsection
