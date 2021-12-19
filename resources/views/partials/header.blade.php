@@ -13,7 +13,7 @@
         </div>
     </div>
 
-    <div class="bottom_header py-4">
+    <div class="bottom_header">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col">
@@ -37,7 +37,7 @@
 
                 <div class="col">
                     <div class="search text-end">
-                        <p>search</p>
+                        <input type="search" name="" id="" placeholder="Search">
                     </div>
                 </div>
             </div>

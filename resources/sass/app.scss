@@ -15,7 +15,7 @@ $brand_color: #0382f9;
     background-color: $brand_color;
     color: white;
     p{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         margin: 0;
         padding: 0.5rem 0;
     }
@@ -26,6 +26,22 @@ $brand_color: #0382f9;
         flex-wrap: nowrap;
         nav{
             flex-wrap: nowrap;
+            a{
+                color: black;
+                padding: 2rem .2rem;
+                margin: 0 0.5rem;
+                border-bottom: 4px solid white;
+                
+                &:hover{
+                    color: $brand_color;
+                    border-bottom: 4px solid #0382f9;
+                }
+            }
+        }
+        input{
+            text-align: right;
+            border-style: hidden;
+            border-bottom: 2px solid $brand_color;
         }
     }
 }
@@ -41,15 +57,39 @@ main{
         background-position: top;
         background-repeat: no-repeat;
     }
-    .card{
-        border: none !important;
-        background-color: transparent;
-        color: white;
 
-        img{
-            width: 100%;
-            object-fit: cover;
-            object-position: top;
+    .container{
+        position: relative;
+
+        .title{
+            position: absolute;
+            left: 0;
+            top: -40px;
+            h1{
+                font-size: 2rem;
+                width: fit-content;
+                background-color: $brand_color;
+                padding: 1rem 3rem;
+            }
+        }
+        .card{
+            border: none !important;
+            background-color: transparent;
+            color: white;
+    
+            img{
+                width: 100%;
+                object-fit: cover;
+                object-position: top;
+            }
+        }
+        .load_more{
+            button{
+                background-color: $brand_color;
+                border: none;
+                color: white;
+                padding: 1rem 5rem;
+            }
         }
     }
 }

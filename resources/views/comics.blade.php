@@ -9,7 +9,7 @@
     <div class="title">
         <h1>CURRENT SERIES</h1>
     </div>
-    <div class="row">
+    <div class="row pt-5">
         @foreach($comics as $comic)
             <div class="col-2">
                 <div class="card h-100">
@@ -19,8 +19,8 @@
             </div>
         @endforeach
     </div>
-    <div class="load_more text-center">
-        <p>LOAD MORE</p>
+    <div class="load_more text-center py-4">
+        <button>LOAD MORE</button>
     </div>
 </div>
 

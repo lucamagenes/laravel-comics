@@ -11250,7 +11250,7 @@ textarea.form-control-lg {
   color: white;
 }
 .top_header p {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   margin: 0;
   padding: 0.5rem 0;
 }
@@ -11260,6 +11260,21 @@ textarea.form-control-lg {
 }
 .bottom_header .row nav {
   flex-wrap: nowrap;
+}
+.bottom_header .row nav a {
+  color: black;
+  padding: 2rem 0.2rem;
+  margin: 0 0.5rem;
+  border-bottom: 4px solid white;
+}
+.bottom_header .row nav a:hover {
+  color: #0382f9;
+  border-bottom: 4px solid #0382f9;
+}
+.bottom_header .row input {
+  text-align: right;
+  border-style: hidden;
+  border-bottom: 2px solid #0382f9;
 }
 
 /* main */
@@ -11273,17 +11288,39 @@ main .jumbo {
   background-position: top;
   background-repeat: no-repeat;
 }
-main .card {
+main .container {
+  position: relative;
+}
+main .container .title {
+  position: absolute;
+  left: 0;
+  top: -40px;
+}
+main .container .title h1 {
+  font-size: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #0382f9;
+  padding: 1rem 3rem;
+}
+main .container .card {
   border: none !important;
   background-color: transparent;
   color: white;
 }
-main .card img {
+main .container .card img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
+}
+main .container .load_more button {
+  background-color: #0382f9;
+  border: none;
+  color: white;
+  padding: 1rem 5rem;
 }
 
 /* banner */
