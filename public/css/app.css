@@ -11255,6 +11255,13 @@ textarea.form-control-lg {
   padding: 0.5rem 0;
 }
 
+.bottom_header .row {
+  flex-wrap: nowrap;
+}
+.bottom_header .row nav {
+  flex-wrap: nowrap;
+}
+
 /* main */
 main {
   background-color: #1c1c1c;
@@ -11287,4 +11294,64 @@ main .card img {
 .banner .item p {
   color: white;
   margin: 0 1rem;
+}
+
+#site_footer .top_footer {
+  background-image: url("../img/footer-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#site_footer .top_footer .logo_footer {
+  background-image: url("../img/dc-logo-bg.png");
+  background-position: center;
+}
+#site_footer .top_footer .row {
+  margin: 0;
+}
+#site_footer .top_footer .row .contacts_footer {
+  padding: 2rem;
+}
+#site_footer .top_footer .row .contacts_footer .menu_wrapper h4 {
+  color: white;
+}
+#site_footer .top_footer .row .contacts_footer .menu_wrapper li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 0.8rem;
+}
+#site_footer .top_footer .row .contacts_footer .menu_wrapper li a:hover {
+  text-decoration: underline;
+  color: #0382f9;
+}
+#site_footer .top_footer .row .contacts_footer .copyright {
+  color: gray;
+  font-size: 0.8rem;
+}
+#site_footer .top_footer .row .contacts_footer .copyright .copy_blue {
+  color: #0382f9;
+}
+#site_footer .bottom_footer {
+  background-color: #303030;
+}
+#site_footer .bottom_footer .row {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#site_footer .bottom_footer .row button {
+  background-color: transparent;
+  border: 1px solid #0382f9;
+  color: white;
+  padding: 1rem;
+}
+#site_footer .bottom_footer .row .socials {
+  justify-content: end;
+  align-items: center;
+}
+#site_footer .bottom_footer .row .socials h4 {
+  color: #0382f9;
+  margin: 0 0.5rem 0;
+}
+#site_footer .bottom_footer .row .socials .social_icon {
+  margin: 0 0.5rem;
 }

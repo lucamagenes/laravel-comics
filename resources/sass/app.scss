@@ -21,6 +21,15 @@ $brand_color: #0382f9;
     }
 }
 
+.bottom_header{
+    .row{
+        flex-wrap: nowrap;
+        nav{
+            flex-wrap: nowrap;
+        }
+    }
+}
+
 /* main */
 main{
     background-color: #1c1c1c;
@@ -53,6 +62,75 @@ main{
         p{
             color: white;
             margin: 0 1rem ;
+        }
+    }
+}
+
+#site_footer{
+    .top_footer{
+        background-image: url('../img/footer-bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        .logo_footer{
+            background-image: url('../img/dc-logo-bg.png');
+            background-position: center;
+        }
+        .row{
+            margin: 0;
+            .contacts_footer{
+                padding: 2rem;
+                .menu_wrapper{
+                    h4{
+                        color: white;
+                    }
+                    li{
+                        a{
+                            text-decoration: none;
+                            color: gray;
+                            font-size: 0.8rem;
+        
+        
+                            &:hover{
+                                text-decoration: underline;
+                                color: $brand_color;
+                            }
+                        }
+                    }
+                }
+                .copyright{
+                    color: gray;
+                    font-size: .8rem;
+                    .copy_blue{
+                        color: $brand_color;
+                    }
+                }
+            }
+        }
+    }
+    .bottom_footer{
+        background-color: #303030;
+        .row{
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            
+            button{
+                background-color: transparent;
+                border: 1px solid $brand_color;
+                color: white;
+                padding: 1rem;
+            }
+            .socials{
+                justify-content: end;
+                align-items: center;
+                h4{
+                    color: $brand_color;
+                    margin: 0 .5rem 0;
+                }
+                .social_icon{
+                    margin: 0 .5rem;
+                }
+            }
         }
     }
 }
