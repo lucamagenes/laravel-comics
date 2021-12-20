@@ -11335,18 +11335,20 @@ main .container .load_more button {
 
 #site_footer .top_footer {
   background-image: url("../img/footer-bg.jpg");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 #site_footer .top_footer .logo_footer {
   background-image: url("../img/dc-logo-bg.png");
   background-position: center;
+  background-repeat: no-repeat;
 }
 #site_footer .top_footer .row {
   margin: 0;
 }
 #site_footer .top_footer .row .contacts_footer {
-  padding: 2rem;
+  padding: 2rem 0;
 }
 #site_footer .top_footer .row .contacts_footer .menu_wrapper h4 {
   color: white;

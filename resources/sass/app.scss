@@ -6,6 +6,7 @@
 /* variables */
 
 $brand_color: #0382f9;
+$footer_bg_color: #303030;
 
 
 
@@ -109,16 +110,18 @@ main{
 #site_footer{
     .top_footer{
         background-image: url('../img/footer-bg.jpg');
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         .logo_footer{
             background-image: url('../img/dc-logo-bg.png');
             background-position: center;
+            background-repeat: no-repeat;
         }
         .row{
             margin: 0;
             .contacts_footer{
-                padding: 2rem;
+                padding: 2rem 0;
                 .menu_wrapper{
                     h4{
                         color: white;
@@ -148,7 +151,7 @@ main{
         }
     }
     .bottom_footer{
-        background-color: #303030;
+        background-color: $footer_bg_color;
         .row{
             flex-wrap: nowrap;
             justify-content: space-between;
