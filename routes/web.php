@@ -59,3 +59,16 @@ Route::get('/news', function () {
 Route::get('/shop', function () {
     return view('shop');
 })->name('shop');
+
+Route::get('comics/{id}', function ($id) {
+
+    $comics = config('db.comics');
+
+    if (is_numeric($id) && $id >= 0 && $id < count($comics)) {
+        $comic = $comics[$id];
+        return view('show', compact('comic'));
+    } else {
+        abort(404);
+    }
+
+})->name('comic');

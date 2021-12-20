@@ -11244,6 +11244,11 @@ textarea.form-control-lg {
   }
 }
 /* variables */
+/* common */
+a {
+  text-decoration: none;
+}
+
 /* header */
 .top_header {
   background-color: #0382f9;
