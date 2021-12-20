@@ -11343,6 +11343,82 @@ main .container .load_more button {
   margin: 0 1rem;
 }
 
+/* single comic */
+.blue_bg_long {
+  width: 100%;
+  height: 100px;
+  background-color: #0382f9;
+  position: relative;
+}
+.blue_bg_long img {
+  position: absolute;
+  left: 3rem;
+  top: -240px;
+}
+
+.info_buy {
+  background-color: white;
+  color: black;
+}
+.info_buy .title_comic h1 {
+  font-size: 36px;
+}
+.info_buy .price {
+  width: 100%;
+  height: 50px;
+  background-color: #55ba59;
+  margin: 1.5rem 0;
+}
+.info_buy .price p {
+  margin-bottom: 0;
+}
+.info_buy .price .available {
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid gray;
+  color: #b0f78a;
+}
+.info_buy .price .available span {
+  color: white;
+}
+.info_buy .price .check {
+  width: 30%;
+  height: 100%;
+  color: white;
+}
+.info_buy .img_wrapper {
+  width: 100%;
+  text-align: right;
+}
+
+.gray_bg {
+  background-color: #f6f6f6;
+  color: black;
+}
+.gray_bg .details {
+  padding-bottom: 100px;
+}
+.gray_bg .details h4 {
+  padding: 1rem 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid gray;
+}
+.gray_bg .details .det {
+  border-bottom: 1px solid gray;
+  padding: 0.5rem 0;
+}
+.gray_bg .details .det p, .gray_bg .details .det span {
+  font-size: 0.8rem;
+}
+.gray_bg .details .det p {
+  min-width: 30%;
+  margin-bottom: 0;
+}
+.gray_bg .details .det .blue_text {
+  color: #0382f9;
+}
+
+/* footer */
 #site_footer .top_footer {
   background-image: url("../img/footer-bg.jpg");
   background-size: cover;
