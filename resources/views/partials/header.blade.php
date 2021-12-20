@@ -22,16 +22,13 @@
 
                 <div class="col">
                     <nav class="nav justify-content-center">
-                        <a href="" class="nav-link">CHARACTERS</a>
-                        <a href="{{ route('comics') }}" class="nav-link">COMICS</a>
-                        <a href="" class="nav-link">MOVIES</a>
-                        <a href="" class="nav-link">TV</a>
-                        <a href="" class="nav-link">GAMES</a>
-                        <a href="" class="nav-link">COLLECTIBLES</a>
-                        <a href="" class="nav-link">VIDEOS</a>
-                        <a href="" class="nav-link">FANS</a>
-                        <a href="" class="nav-link">NEWS</a>
-                        <a href="" class="nav-link">SHOP</a>
+                        @foreach(config('db.menu') as $link)
+
+                        <a href="{{ route($link['href']) }}" class="{{ Route::currentRouteName() === $link['href'] ? 'active' : '' }}">
+                            {{ $link['name'] }}
+                        </a>
+
+                        @endforeach
                     </nav>
                 </div>
 
